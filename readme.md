@@ -34,21 +34,8 @@ Este projeto utiliza o Robot Framework e o Appium para realizar testes automatiz
 
 ## Estrutura do projeto
 
-`projeto_robot_framework_appium/
-	│
-	├── report/
-	│   └── ...
-	├── resources/
-	│   ├── base.robot
-	├── steps.robot
-	│	└── ...
-	│
-	├── tests/
-	│   ├── test.robot
-	│   └── ...
-	│
-	└── README.md` 
 
+-   A pasta `app` contém o `apk` utilizado nos testes
 -   Os resultados dos testes serão salvos na pasta `report`
 -   A pasta `resources` contém arquivos com as palavras-chave utilizadas nos testes.
 -   A pasta `tests` contém arquivos com os casos de teste a serem executados.
